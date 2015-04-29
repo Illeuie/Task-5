@@ -110,7 +110,7 @@ header{
 	bottom: 0px
 }
 .content{
-	margin: 0 auto;
+	margin: 20px auto;
 	width: 1100px;
 	height: 500px;
 	position: relative;
@@ -118,14 +118,56 @@ header{
 .arrow{
 	width: 35px;
 	height: 500px;
+	
 }
 .arrow.left{
 	float: left;
 }
 .arrow.right{
 	float: right;
-
 }
 .arrow img{
-	padding-top: 240px
+	padding-top: 240px;
+}
+.arrow a{
+	height: 500px;
+	display: block;
+}
+.circle{
+	width: 400px;
+	height: 400px;
+	border: 20px solid #f5f5f5; 
+	-moz-border-radius: 276px;
+	-webkit-border-radius: 276px;
+	border-radius: 276px; 
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+	background: #fff; 
+	-moz-box-shadow: 0 1px 1px #000; 
+	-webkit-box-shadow: 0 1px 1px #000; 
+	box-shadow: 0 1px 1px #000; 
+	position: absolute;
+	left: 320px;
+	bottom: 18px;
+}
+.circle h1{
+	color: #454545;
+	font-family: "Montserrat-Bold";
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px
+}
+.circle span{
+	color: #f26c4f; 
+	font-family: "Montserrat-Regular";
+	font-size: 40px;
+	text-align: center;
+}
+.circle p{
+	color: #949494; 
+	font-family: "Montserrat-Regular";
+	font-size: 13px;
+	text-align: center;
 }
