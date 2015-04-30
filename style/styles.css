@@ -41,7 +41,7 @@ header{
 	margin: 20px 200px 0px 0px;
 	color: #949494; 
 	font-family: "Montserrat";
-	font-size: 13px;
+	font-size: 15px;
 }
 .navi_search{
 	position: absolute;
@@ -97,7 +97,7 @@ header{
 .baner img{
 	width: 1000px;
 	height: 500px;
-	opacity: .5; 
+	opacity: .2; 
 	background-color: #fff;
 	border: 10px solid #fff;
 	margin-left: 5px
@@ -118,20 +118,26 @@ header{
 .arrow{
 	width: 35px;
 	height: 500px;
-	
 }
 .arrow.left{
 	float: left;
+}
+.content >.left a:hover{
+	background: #fff;
+}
+.content >.right a:hover{
+	background: #fff;
 }
 .arrow.right{
 	float: right;
 }
 .arrow img{
-	padding-top: 240px;
+	padding-top: 230px;
 }
 .arrow a{
-	height: 500px;
+	height: 490px;
 	display: block;
+	margin-top: 13px
 }
 .circle{
 	width: 400px;
@@ -172,17 +178,19 @@ header{
 	text-align: center;
 }
 .column{
-	margin:50px auto;
-	border:1px solid;
+	margin:50px;
 }
 .column h2{
-	font-size: 16px;
+	font-size: 18px;
 	width: 800px;
 	height: 50px;
 	text-align: center;
+	margin: 0 auto;
 }
 .column p{
 	width: 800px;
 	height: 50px;
+	font-size: 12px;
 	text-align: center;
+	margin: 10px auto;
 }
